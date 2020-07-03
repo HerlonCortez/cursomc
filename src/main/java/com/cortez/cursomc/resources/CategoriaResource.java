@@ -12,8 +12,8 @@ import com.cortez.cursomc.domain.Categoria;
 import com.cortez.cursomc.services.CategoriaService;
 
 @RestController
-@RequestMapping(value="/Categorias")
-public class CategoriaResources {
+@RequestMapping(value="/categorias")
+public class CategoriaResource {
 
 	@Autowired
 	private CategoriaService service;
